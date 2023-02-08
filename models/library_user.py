@@ -14,5 +14,5 @@ class LibraryUser(models.Model):
     ], default='other')
     favorite_genres = fields.Text(string="Favorite genres of literature")
    
-    test = fields.Text(string="Test 123")
+    test = fields.Text(string="Test")
         
